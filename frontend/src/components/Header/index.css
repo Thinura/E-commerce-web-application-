@@ -1,0 +1,24 @@
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.navbar {
+  background-color: #64b5f6 !important;
+  width: auto;
+  color: white !important;
+}
+.nav-cal {
+  width: auto;
+  color: rgb(0, 0, 0) !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+  .navbar {
+    height: 90px;
+  }
+  .nav-cal {
+    margin-left: 10px;
+  }
+}
